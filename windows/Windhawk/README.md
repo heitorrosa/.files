@@ -1,0 +1,1 @@
+Paste in `%ProgramData\Windhawk`
