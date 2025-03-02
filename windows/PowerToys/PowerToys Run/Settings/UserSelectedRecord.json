@@ -1,0 +1,224 @@
+{
+  "Records": {
+    "services.msc : Run command": {
+      "SelectedCount": 2,
+      "LastSelected": "2025-03-02T04:24:35.9764705Z",
+      "IconPath": "C:\\Windows\\system32\\services.msc",
+      "Title": "services.msc",
+      "Search": "services.msc",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "cmd.exe : Run command": {
+      "SelectedCount": 10,
+      "LastSelected": "2025-03-02T14:52:34.0955832Z",
+      "IconPath": "C:\\Windows\\system32\\cmd.exe",
+      "Title": "cmd.exe",
+      "Search": "cmd",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Registry Editor : Application": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-02-28T01:31:26.4060066Z",
+      "IconPath": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Registry Editor.lnk",
+      "Title": "Registry Editor",
+      "Search": "regdit",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Restart : Restart computer": {
+      "SelectedCount": 2,
+      "LastSelected": "2025-02-28T01:58:20.8742861Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\RunPlugins\\System\\Images\\restart.dark.png",
+      "Title": "Restart",
+      "Search": "restar",
+      "Score": 0,
+      "SubTitle": "Restart computer",
+      "PluginID": "CEA08895D2544B019B2E9C5009600DF4"
+    },
+    "control.exe : Run command": {
+      "SelectedCount": 2,
+      "LastSelected": "2025-02-28T01:54:21.6955924Z",
+      "IconPath": "C:\\Windows\\system32\\control.exe",
+      "Title": "control.exe",
+      "Search": "control",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "regedit.exe : Run command": {
+      "SelectedCount": 3,
+      "LastSelected": "2025-03-02T14:46:46.4078225Z",
+      "IconPath": "C:\\Windows\\regedit.exe",
+      "Title": "regedit.exe",
+      "Search": "regedit",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Thorium : Application": {
+      "SelectedCount": 2,
+      "LastSelected": "2025-02-28T02:21:27.7815732Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Thorium.lnk",
+      "Title": "Thorium",
+      "Search": "thor",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "config.yaml - Visual Studio Code [Administrator] : Running: Code.exe": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-02-28T02:29:12.9412252Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\RunPlugins\\WindowWalker\\Images/windowwalker.dark.png",
+      "Title": "config.yaml - Visual Studio Code [Administrator]",
+      "Search": "vscode",
+      "Score": 0,
+      "SubTitle": "Running: Code.exe",
+      "PluginID": "F737A9223560B3C6833B5FFB8CDF78E5"
+    },
+    "Windows PowerShell (x86) : Application": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-02-28T03:07:22.8738273Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\Windows PowerShell\\Windows PowerShell (x86).lnk",
+      "Title": "Windows PowerShell (x86)",
+      "Search": "powersh",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "WSReset.exe : Run command": {
+      "SelectedCount": 2,
+      "LastSelected": "2025-02-28T03:11:15.6944746Z",
+      "IconPath": "C:\\Windows\\system32\\WSReset.exe",
+      "Title": "WSReset.exe",
+      "Search": "wsreset -i",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Shutdown : Shutdown computer": {
+      "SelectedCount": 3,
+      "LastSelected": "2025-03-02T05:11:50.2370566Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Local\\PowerToys\\RunPlugins\\System\\Images\\shutdown.dark.png",
+      "Title": "Shutdown",
+      "Search": "sh",
+      "Score": 0,
+      "SubTitle": "Shutdown computer",
+      "PluginID": "CEA08895D2544B019B2E9C5009600DF4"
+    },
+    "Open: Programs : Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-02-28T16:47:06.1630508Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Roaming\\Microsoft\\Windows\\Start Menu\\Programs\\",
+      "Title": "Open: Programs",
+      "Search": "%AppData%\\Microsoft\\Windows\\Start Menu\\Programs",
+      "Score": 0,
+      "SubTitle": "Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.",
+      "PluginID": "B4D3B69656E14D44865C8D818EAE47C4"
+    },
+    "calc.exe : Run command": {
+      "SelectedCount": 4,
+      "LastSelected": "2025-03-02T04:47:26.8932486Z",
+      "IconPath": "C:\\Windows\\system32\\calc.exe",
+      "Title": "calc.exe",
+      "Search": "calc",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "prismlauncher : Application": {
+      "SelectedCount": 3,
+      "LastSelected": "2025-02-28T20:33:47.8980737Z",
+      "IconPath": "C:\\Users\\Administrator\\Desktop\\prismlauncher.lnk",
+      "Title": "prismlauncher",
+      "Search": "prism",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "GlazeWM : Application": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-01T01:39:06.3252139Z",
+      "IconPath": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\GlazeWM.lnk",
+      "Title": "GlazeWM",
+      "Search": "glaz",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "notepad.exe : Run command": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-01T22:41:27.1084245Z",
+      "IconPath": "C:\\Windows\\system32\\notepad.exe",
+      "Title": "notepad.exe",
+      "Search": "notepad",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Hyper-V Manager : Application": {
+      "SelectedCount": 3,
+      "LastSelected": "2025-03-02T04:21:39.6103906Z",
+      "IconPath": "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Administrative Tools\\Hyper-V Manager.lnk",
+      "Title": "Hyper-V Manager",
+      "Search": "hyper",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "OptionalFeatures.exe : Run command": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-02T04:13:22.1003139Z",
+      "IconPath": "C:\\Windows\\system32\\OptionalFeatures.exe",
+      "Title": "OptionalFeatures.exe",
+      "Search": "optionalfeatures",
+      "Score": 0,
+      "SubTitle": "Run command",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "%LOCALAPPDATA% : Folder: C:\\Users\\Administrator\\AppData\\Local": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-02T14:36:05.1780613Z",
+      "IconPath": "C:\\Users\\Administrator\\AppData\\Local",
+      "Title": "%LOCALAPPDATA%",
+      "Search": "%locala",
+      "Score": 0,
+      "SubTitle": "Folder: C:\\Users\\Administrator\\AppData\\Local",
+      "PluginID": "B4D3B69656E14D44865C8D818EAE47C4"
+    },
+    "Windhawk : Application": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-02T14:41:49.8237852Z",
+      "IconPath": "C:\\Users\\Public\\Desktop\\Windhawk.lnk",
+      "Title": "Windhawk",
+      "Search": "windhaw",
+      "Score": 0,
+      "SubTitle": "Application",
+      "PluginID": "791FC278BA414111B8D1886DFE447410"
+    },
+    "Open: Mods : Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-02T14:45:49.8298337Z",
+      "IconPath": "C:\\ProgramData\\Windhawk\\Engine\\Mods\\",
+      "Title": "Open: Mods",
+      "Search": "%ProgramData%\\Windhawk\\Engine\\Mods",
+      "Score": 0,
+      "SubTitle": "Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.",
+      "PluginID": "B4D3B69656E14D44865C8D818EAE47C4"
+    },
+    "Open: Windhawk : Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.": {
+      "SelectedCount": 1,
+      "LastSelected": "2025-03-02T14:49:05.6326715Z",
+      "IconPath": "C:\\ProgramData/Windhawk\\",
+      "Title": "Open: Windhawk",
+      "Search": "%Programdata%/Windhawk",
+      "Score": 0,
+      "SubTitle": "Tip: Use \u003E to search in folders, * to search file by mask, \u003E* for both.",
+      "PluginID": "B4D3B69656E14D44865C8D818EAE47C4"
+    }
+  }
+}

@@ -1,0 +1,67 @@
+[2025-02-27 22:24:28.156128] [p-3136] [t-8072] [info] launcher logger is initialized
+[2025-02-27 22:24:28.156188] [p-3136] [t-8072] [info] Launcher object is constructing
+[2025-02-27 22:24:28.156322] [p-3136] [t-8072] [info] PT Run settings are empty
+[2025-02-27 22:24:28.156343] [p-3136] [t-8072] [info] PT Run is going to use default shortcut
+[2025-02-27 22:24:30.061936] [p-3136] [t-8072] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:24:30.061980] [p-3136] [t-8072] [trace] Signaled exitEvent
+[2025-02-27 22:24:30.062017] [p-3136] [t-8072] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:24:30.082190] [p-3136] [t-8072] [info] Microsoft_Launcher::enable() end
+[2025-02-27 22:24:30.084341] [p-3136] [t-3264] [info] Send settings telemetry
+[2025-02-27 22:26:05.865568] [p-3136] [t-8072] [info] Launcher is disabling
+[2025-02-27 22:26:05.865595] [p-3136] [t-8072] [trace] Signaled exitEvent
+[2025-02-27 22:26:13.213351] [p-3136] [t-8072] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:26:13.213382] [p-3136] [t-8072] [trace] Signaled exitEvent
+[2025-02-27 22:26:13.213395] [p-3136] [t-8072] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:26:13.231486] [p-3136] [t-8072] [info] Microsoft_Launcher::enable() end
+[2025-02-27 22:26:21.822802] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:06.553344] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:40.745943] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:46.559180] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:47.004579] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:47.239581] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:47.758086] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:27:58.481391] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:28:02.168840] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:29:21.248850] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:29:42.275232] [p-3136] [t-8072] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:30:44.352720] [p-7076] [t-7080] [info] launcher logger is initialized
+[2025-02-27 22:30:44.353045] [p-7076] [t-7080] [info] Launcher object is constructing
+[2025-02-27 22:30:44.572586] [p-7076] [t-7080] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:30:44.572662] [p-7076] [t-7080] [trace] Signaled exitEvent
+[2025-02-27 22:30:44.574444] [p-7076] [t-7080] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:30:44.615787] [p-7076] [t-7080] [info] Microsoft_Launcher::enable() end
+[2025-02-27 22:31:23.230297] [p-7076] [t-7080] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:31:45.198585] [p-7076] [t-7080] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:32:56.067530] [p-6480] [t-6484] [info] launcher logger is initialized
+[2025-02-27 22:32:56.067849] [p-6480] [t-6484] [info] Launcher object is constructing
+[2025-02-27 22:32:56.349202] [p-6480] [t-6484] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:32:56.349278] [p-6480] [t-6484] [trace] Signaled exitEvent
+[2025-02-27 22:32:56.349351] [p-6480] [t-6484] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:32:56.386227] [p-6480] [t-6484] [info] Microsoft_Launcher::enable() end
+[2025-02-27 22:37:26.658625] [p-6564] [t-6568] [info] launcher logger is initialized
+[2025-02-27 22:37:26.658890] [p-6564] [t-6568] [info] Launcher object is constructing
+[2025-02-27 22:37:26.928600] [p-6564] [t-6568] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:37:26.928671] [p-6564] [t-6568] [trace] Signaled exitEvent
+[2025-02-27 22:37:26.928741] [p-6564] [t-6568] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:37:26.966446] [p-6564] [t-6568] [info] Microsoft_Launcher::enable() end
+[2025-02-27 22:40:38.078327] [p-6564] [t-6568] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:51:54.825141] [p-6564] [t-6568] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:54:20.552063] [p-6564] [t-6568] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:55:19.432472] [p-6564] [t-6568] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:58:19.731192] [p-6564] [t-6568] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 22:59:09.807985] [p-6172] [t-6176] [info] launcher logger is initialized
+[2025-02-27 22:59:09.808348] [p-6172] [t-6176] [info] Launcher object is constructing
+[2025-02-27 22:59:10.130422] [p-6172] [t-6176] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 22:59:10.130518] [p-6172] [t-6176] [trace] Signaled exitEvent
+[2025-02-27 22:59:10.130604] [p-6172] [t-6176] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 22:59:10.179724] [p-6172] [t-6176] [info] Microsoft_Launcher::enable() end
+[2025-02-27 23:07:30.905952] [p-6172] [t-6176] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 23:16:17.041441] [p-5732] [t-5740] [info] launcher logger is initialized
+[2025-02-27 23:16:17.041746] [p-5732] [t-5740] [info] Launcher object is constructing
+[2025-02-27 23:16:17.304701] [p-5732] [t-5740] [info] Microsoft_Launcher::enable() begin
+[2025-02-27 23:16:17.304770] [p-5732] [t-5740] [trace] Signaled exitEvent
+[2025-02-27 23:16:17.304838] [p-5732] [t-5740] [trace] Starting PowerToys Run from elevated process
+[2025-02-27 23:16:17.341846] [p-5732] [t-5740] [info] Microsoft_Launcher::enable() end
+[2025-02-27 23:17:16.537794] [p-5732] [t-5740] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 23:21:26.350265] [p-5732] [t-5740] [trace] Set POWER_LAUNCHER_SHARED_EVENT
+[2025-02-27 23:29:04.066973] [p-5732] [t-5740] [trace] Set POWER_LAUNCHER_SHARED_EVENT

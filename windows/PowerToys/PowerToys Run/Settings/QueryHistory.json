@@ -1,0 +1,168 @@
+{
+  "Items": [
+    {
+      "Query": "services.msc",
+      "ExecutedDateTime": "2025-02-27T22:28:01.7628172-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-27T22:29:43.4211238-03:00"
+    },
+    {
+      "Query": "regdit",
+      "ExecutedDateTime": "2025-02-27T22:31:26.4065182-03:00"
+    },
+    {
+      "Query": "restart",
+      "ExecutedDateTime": "2025-02-27T22:31:48.2604217-03:00"
+    },
+    {
+      "Query": "control",
+      "ExecutedDateTime": "2025-02-27T22:40:39.824391-03:00"
+    },
+    {
+      "Query": "regedit",
+      "ExecutedDateTime": "2025-02-27T22:51:57.0068708-03:00"
+    },
+    {
+      "Query": "control",
+      "ExecutedDateTime": "2025-02-27T22:54:21.6956433-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-27T22:55:19.9341045-03:00"
+    },
+    {
+      "Query": "restar",
+      "ExecutedDateTime": "2025-02-27T22:58:20.8742912-03:00"
+    },
+    {
+      "Query": "TH",
+      "ExecutedDateTime": "2025-02-27T23:07:32.1601212-03:00"
+    },
+    {
+      "Query": "thor",
+      "ExecutedDateTime": "2025-02-27T23:21:27.7820618-03:00"
+    },
+    {
+      "Query": "vscode",
+      "ExecutedDateTime": "2025-02-27T23:29:12.941284-03:00"
+    },
+    {
+      "Query": "powersh",
+      "ExecutedDateTime": "2025-02-28T00:07:22.8738589-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-28T00:09:19.5369921-03:00"
+    },
+    {
+      "Query": "wsreset",
+      "ExecutedDateTime": "2025-02-28T00:11:06.3720898-03:00"
+    },
+    {
+      "Query": "wsreset -i",
+      "ExecutedDateTime": "2025-02-28T00:11:15.6944791-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-28T00:12:47.1699784-03:00"
+    },
+    {
+      "Query": "shut",
+      "ExecutedDateTime": "2025-02-28T00:13:33.6714974-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-28T13:46:45.415429-03:00"
+    },
+    {
+      "Query": "%AppData%\\Microsoft\\Windows\\Start Menu\\Programs",
+      "ExecutedDateTime": "2025-02-28T13:47:06.1631586-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-02-28T14:03:44.9199947-03:00"
+    },
+    {
+      "Query": "calc",
+      "ExecutedDateTime": "2025-02-28T16:13:35.2010642-03:00"
+    },
+    {
+      "Query": "prism",
+      "ExecutedDateTime": "2025-02-28T17:18:22.3458197-03:00"
+    },
+    {
+      "Query": "PRISM",
+      "ExecutedDateTime": "2025-02-28T17:29:54.9998071-03:00"
+    },
+    {
+      "Query": "prism",
+      "ExecutedDateTime": "2025-02-28T17:33:47.898085-03:00"
+    },
+    {
+      "Query": "glaz",
+      "ExecutedDateTime": "2025-02-28T22:39:06.325219-03:00"
+    },
+    {
+      "Query": "shut",
+      "ExecutedDateTime": "2025-03-01T01:27:26.7099994-03:00"
+    },
+    {
+      "Query": "notepad",
+      "ExecutedDateTime": "2025-03-01T19:41:27.108966-03:00"
+    },
+    {
+      "Query": "hyper",
+      "ExecutedDateTime": "2025-03-02T01:10:18.0335954-03:00"
+    },
+    {
+      "Query": "optionalfeatures",
+      "ExecutedDateTime": "2025-03-02T01:13:22.1003253-03:00"
+    },
+    {
+      "Query": "regedit",
+      "ExecutedDateTime": "2025-03-02T01:15:46.9673425-03:00"
+    },
+    {
+      "Query": "hyper",
+      "ExecutedDateTime": "2025-03-02T01:21:39.6103948-03:00"
+    },
+    {
+      "Query": "services.msc",
+      "ExecutedDateTime": "2025-03-02T01:24:35.9764751-03:00"
+    },
+    {
+      "Query": "calc",
+      "ExecutedDateTime": "2025-03-02T01:47:26.893253-03:00"
+    },
+    {
+      "Query": "sh",
+      "ExecutedDateTime": "2025-03-02T02:11:50.2370614-03:00"
+    },
+    {
+      "Query": "%locala",
+      "ExecutedDateTime": "2025-03-02T11:36:05.1785938-03:00"
+    },
+    {
+      "Query": "windhaw",
+      "ExecutedDateTime": "2025-03-02T11:41:49.8237896-03:00"
+    },
+    {
+      "Query": "%ProgramData%\\Windhawk\\Engine\\Mods",
+      "ExecutedDateTime": "2025-03-02T11:45:49.8298379-03:00"
+    },
+    {
+      "Query": "regedit",
+      "ExecutedDateTime": "2025-03-02T11:46:46.407903-03:00"
+    },
+    {
+      "Query": "%Programdata%/Windhawk",
+      "ExecutedDateTime": "2025-03-02T11:49:05.6326763-03:00"
+    },
+    {
+      "Query": "cmd",
+      "ExecutedDateTime": "2025-03-02T11:52:34.0955886-03:00"
+    }
+  ]
+}
