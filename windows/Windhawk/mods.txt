@@ -1,7 +1,0 @@
-Always show all taskbar tray icons
-Better file sizes in Explorer details
-Middle click to close on the taskbar
-Open With - Remove Microsoft Store Menu Item
-Turn off change file extension warning
-Windows 11 Start Menu Styler
-Windows 11 Taskbar Styler 
