@@ -2,7 +2,7 @@
 general:
   # script or launching another application.
   # Example: The below command launches Zebar.
-  # startup_commands: ['shell-exec zebar']
+  startup_commands: ['shell-exec C:\Python313\pythonw.exe %USERPROFILE%\.glzr\glazewm\autotile.py']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -48,9 +48,9 @@ gaps:
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '6px'
+    top: '4px'
     right: '2px'
-    bottom: '6px'
+    bottom: '4px'
     left: '2px'
 
 window_effects:
@@ -135,7 +135,16 @@ window_rules:
     match:
       # Ignores any Zebar windows.
       - window_process: { equals: 'zebar' }
+
+      # Ignore games
       - window_process: { equals: 'cs2' }
+      - window_process: { equals: 'VALORANT-Win64-Shipping' }
+      - window_title: { equals: 'Minecraft' }
+      - window_title: { equals: 'Roblox' }
+      
+      # Ignore certain programs
+      - window_title: { equals: 'Task Manager' }
+      - window_title: { equals: 'Calculator' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -178,13 +187,13 @@ keybindings:
 
   # Move focused window in a given direction.
   - commands: ['move --direction left']
-    bindings: ['alt+shift+h','alt+shift+a', 'alt+shift+left']
+    bindings: ['alt+shift+a', 'alt+shift+left']
   - commands: ['move --direction right']
-    bindings: ['alt+shift+l','alt+shift+d', 'alt+shift+right']
+    bindings: ['alt+shift+d', 'alt+shift+right']
   - commands: ['move --direction up']
-    bindings: ['alt+shift+k','alt+shift+w', 'alt+shift+up']
+    bindings: ['alt+shift+w', 'alt+shift+up']
   - commands: ['move --direction down']
-    bindings: ['alt+shift+j','alt+shift+s', 'alt+shift+down']
+    bindings: ['alt+shift+s', 'alt+shift+down']
 
   # Resize focused window by a percentage or pixel amount.
   - commands: ['resize --width -2%']
@@ -251,8 +260,12 @@ keybindings:
   # Launch CMD terminal. Alternatively, use `shell-exec wt` or
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
+
   - commands: ['shell-exec %localappdata%\Microsoft\WindowsApps\wt.exe']
     bindings: ['alt+enter']
+
+  - commands: ['shell-exec C:\Program Files\Microsoft VS Code\Code.exe']
+    bindings: ['alt+c']
 
   - commands: ['shell-exec %localappdata%\Thorium\Application\thorium.exe']
     bindings: ['alt+b']
