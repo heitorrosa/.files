@@ -25,7 +25,7 @@ general:
     # Trigger for cursor jump:
     # - 'monitor_focus': Jump when focus changes between monitors.
     # - 'window_focus': Jump when focus changes between windows.
-    trigger: 'monitor_focus'
+    trigger: 'window_focus'
 
   # How windows should be hidden when switching workspaces.
   # - 'cloak': Recommended. Hides windows with no animation.
@@ -221,11 +221,11 @@ keybindings:
   - commands: ['toggle-tiling-direction']
     bindings: ['alt+v']
 
-#  # Change focus from tiling windows -> floating -> fullscreen.
+  # Change focus from tiling windows -> floating -> fullscreen.
 #  - commands: ['wm-cycle-focus']
 #    bindings: ['alt+space']
 
-#  # Change the focused window to be floating.
+  # Change the focused window to be floating.
 #  - commands: ['toggle-floating --centered']
 #    bindings: ['alt+shift+space']
 
@@ -245,15 +245,15 @@ keybindings:
   - commands: ['close']
     bindings: ['alt+q']
 
-#  # Kill GlazeWM process safely.
+  # Kill GlazeWM process safely.
 #  - commands: ['wm-exit']
 #    bindings: ['alt+shift+e']
 #
-#  # Re-evaluate configuration file.
+  # Re-evaluate configuration file.
 #  - commands: ['wm-reload-config']
 #    bindings: ['alt+shift+r']
 #
-#  # Redraw all windows.
+  # Redraw all windows.
 #  - commands: ['wm-redraw']
 #    bindings: ['alt+d']
 
@@ -261,7 +261,7 @@ keybindings:
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
 
-  - commands: ['shell-exec %localappdata%\Microsoft\WindowsApps\wt.exe']
+  - commands: ['shell-exec cmd']
     bindings: ['alt+enter']
 
   - commands: ['shell-exec C:\Program Files\Microsoft VS Code\Code.exe']
@@ -273,13 +273,13 @@ keybindings:
   - commands: ['shell-exec explorer']
     bindings: ['alt+e']
 
-#  # Focus the next/previous active workspace defined in `workspaces` config.
+  # Focus the next/previous active workspace defined in `workspaces` config.
 #  - commands: ['focus --next-active-workspace']
 #    bindings: ['alt+s']
 #  - commands: ['focus --prev-active-workspace']
 #    bindings: ['alt+a']
 
-#  # Focus the workspace that last had focus.
+  # Focus the workspace that last had focus.
 #  - commands: ['focus --recent-workspace']
 #    bindings: ['alt+d']
 
@@ -303,16 +303,16 @@ keybindings:
   - commands: ['focus --workspace 9']
     bindings: ['alt+9']
 
-#  # Move the focused window's parent workspace to a monitor in a given
-#  # direction.
+  # Move the focused window's parent workspace to a monitor in a given
+  # direction.
 #  - commands: ['move-workspace --direction left']
-#    bindings: ['alt+shift+a']
+#    bindings: ['alt+shift+ctrl+a']
 #  - commands: ['move-workspace --direction right']
-#    bindings: ['alt+shift+f']
+#    bindings: ['alt+shift+ctrl+d']
 #  - commands: ['move-workspace --direction up']
-#    bindings: ['alt+shift+d']
+#    bindings: ['alt+shift+ctrl+w']
 #  - commands: ['move-workspace --direction down']
-#    bindings: ['alt+shift+s']
+#    bindings: ['alt+shift+ctrl+s']
 
   # Move focused window to a workspace defined in `workspaces` config.
   - commands: ['move --workspace 1', 'focus --workspace 1']
