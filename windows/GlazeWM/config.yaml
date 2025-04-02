@@ -147,7 +147,6 @@ window_rules:
       # Ignore certain programs
       - window_title: { equals: 'Task Manager' }
       - window_title: { equals: 'Calculator' }
-      - window_title: { equals: 'Hone' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
