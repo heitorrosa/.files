@@ -2,7 +2,7 @@
 general:
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ['shell-exec C:\Python313\pythonw.exe %USERPROFILE%\.glzr\glazewm\autotile.py']
+  startup_commands: ['shell-exec %USERPROFILE%\.glzr\glazewm\glaze-autotiler.exe']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -147,6 +147,8 @@ window_rules:
       # Ignore certain programs
       - window_title: { equals: 'Task Manager' }
       - window_title: { equals: 'Calculator' }
+      - window_title: { equals: 'WhatsApp' }
+      - window_process: { equals: 'WhatsApp' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
