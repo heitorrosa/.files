@@ -2,7 +2,7 @@
 general:
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ['shell-exec %USERPROFILE%\.glzr\glazewm\glaze-autotiler.exe']
+  startup_commands: ['shell-exec %USERPROFILE%\.glzr\glazewm\gat-gwm.exe']
 
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
@@ -65,7 +65,7 @@ window_effects:
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
     hide_title_bar:
-      enabled: false
+      enabled: true
 
     # Change the corner style of the window's frame.
     # ** Exclusive to Windows 11 due to API limitations.
@@ -143,6 +143,8 @@ window_rules:
       - window_process: { equals: 'prismlauncher' }
       - window_title: { equals: 'Minecraft' }
       - window_title: { equals: 'Roblox' }
+      - window_process: { equals: 'Marvel-Win64-Shipping' }
+      - window_process: { equals: 'Marvel' }
       
       # Ignore certain programs
       - window_title: { equals: 'Task Manager' }
