@@ -44,14 +44,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '2px'
+  inner_gap: '6px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '4px'
-    right: '2px'
-    bottom: '4px'
-    left: '2px'
+    top: '8px'
+    right: '6px'
+    bottom: '8px'
+    left: '6px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -65,7 +65,7 @@ window_effects:
     # Remove the title bar from the window's frame. Note that this can
     # cause rendering issues for some applications.
     hide_title_bar:
-      enabled: true
+      enabled: false
 
     # Change the corner style of the window's frame.
     # ** Exclusive to Windows 11 due to API limitations.
@@ -140,11 +140,13 @@ window_rules:
       - window_process: { equals: 'cs2' }
       - window_process: { equals: 'VALORANT-Win64-Shipping' }
       - window_process: { equals: 'javaw' }
+      - window_process: { equals: 'java' }
       - window_process: { equals: 'prismlauncher' }
-      - window_title: { equals: 'Minecraft' }
-      - window_title: { equals: 'Roblox' }
       - window_process: { equals: 'Marvel-Win64-Shipping' }
       - window_process: { equals: 'Marvel' }
+      - window_process: { equals: 'Trackmania' }
+      - window_title: { equals: 'Minecraft' }
+      - window_title: { equals: 'Roblox' }
       
       # Ignore certain programs
       - window_title: { equals: 'Task Manager' }
@@ -175,7 +177,7 @@ binding_modes:
       - commands: ['resize --height +2%']
         bindings: ['k','s', 'up']
       - commands: ['resize --height -2%']
-        bindings: ['j','w', 'down']
+        bindiangs: ['j','w', 'down']
       # Press enter/escape to return to default keybindings.
       - commands: ['wm-disable-binding-mode --name resize']
         bindings: ['escape', 'enter', 'alt+r']
