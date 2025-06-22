@@ -43,6 +43,9 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 :: Remote Access Tool (Parsec)
 %choco% install parsec --ignore-checksums
 
+:: VPN
+%choco% install tailscale
+
 :: Programs
 %choco% install discord
 %choco% install thorium
