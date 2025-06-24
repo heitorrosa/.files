@@ -41,6 +41,9 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 :: Terminal Emulator
 %choco% install powershell-core --install-arguments='"DISABLE_TELEMETRY=1 ADD_FILE_CONTEXT_MENU_RUNPOWERSHELL=1 ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1"
 
+:: Neofetch, but for windows
+%choco% install winfetch --params "'/AddToUserPath:yes /AddToSystemPath:no'"
+
 :: Everything
 %choco% install everything --params "/run-on-system-startup /client-service"
 
