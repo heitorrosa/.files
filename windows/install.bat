@@ -189,6 +189,7 @@ reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "AltSnap" /t REG
 :: Restore MSI Afterburner Settings
 ::
 set "CURRENT_DIR=%cd%"
+xcopy "%CURRENT_DIR%\windows\MSI Afterburner\Profiles\" "C:\Program Files (x86)\MSI Afterburner\Profiles\" /y
 
 
 
