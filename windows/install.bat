@@ -52,3 +52,63 @@ powershell Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.Service
 %choco% install obs-studio
 
 git clone https://github.com/heitorrosa/.files
+cd .files
+
+:: Import Git settings
+git config --global user.name "heitorrosa"
+git config --global user.email "76885858+heitorrosa@users.noreply.github.com"
+
+:: Import 7Zip reg files
+reg add "HKCU\SOFTWARE\7-Zip\FM\Columns" /v "RootFolder" /t REG_BINARY /d "0100000000000000010000000400000001000000a0000000" /f
+
+reg add "HKCU\SOFTWARE\7-Zip\Options" /v "CascadeMenu" /t REG_DWORD /d "0" /f
+reg add "HKCU\SOFTWARE\7-Zip\Options" /v "ContextMenu" /t REG_DWORD /d "261" /f
+reg add "HKCU\SOFTWARE\7-Zip\Options" /v "CascadedMenu" /t REG_DWORD /d "0" /f
+reg add "HKCU\SOFTWARE\7-Zip\Options" /v "MenuIcons" /t REG_DWORD /d "1" /f
+reg add "HKCU\SOFTWARE\7-Zip\Options" /v "ElimDupExtract" /t REG_DWORD /d "1" /f
+
+:: Restore Windhawk Settings
+set "SCRIPT_DIR=%~dp0"
+set "BACKUP_ZIP=%SCRIPT_DIR%windows\Windhawk\windhawk-backup.zip"
+set "WINDHAWK_ROOT=C:\ProgramData\Windhawk"
+set "EXTRACT_FOLDER=%TEMP%\WindhawkRestore"
+
+if not exist "%BACKUP_ZIP%" (
+    echo Error: Backup file not found at:
+    echo   %BACKUP_ZIP%
+    pause
+    exit /b 1
+)
+
+if exist "%EXTRACT_FOLDER%" rmdir /s /q "%EXTRACT_FOLDER%"
+mkdir "%EXTRACT_FOLDER%" >nul 2>&1
+
+powershell -command "Expand-Archive -LiteralPath '%BACKUP_ZIP%' -DestinationPath '%EXTRACT_FOLDER%' -Force"
+
+
+if exist "%EXTRACT_FOLDER%\ModsSource\" (
+    if not exist "%WINDHAWK_ROOT%\" mkdir "%WINDHAWK_ROOT%"
+    xcopy /e /i /y "%EXTRACT_FOLDER%\ModsSource" "%WINDHAWK_ROOT%\ModsSource\" >nul
+)
+
+if exist "%EXTRACT_FOLDER%\Engine\Mods\" (
+    if not exist "%WINDHAWK_ROOT%\Engine\" mkdir "%WINDHAWK_ROOT%\Engine"
+    xcopy /e /i /y "%EXTRACT_FOLDER%\Engine\Mods" "%WINDHAWK_ROOT%\Engine\Mods\" >nul
+)
+
+if exist "%EXTRACT_FOLDER%\Windhawk.reg" (
+    reg import "%EXTRACT_FOLDER%\Windhawk.reg" >nul
+)
+
+rmdir /s /q "%EXTRACT_FOLDER%"
+
+echo Restore completed successfully!
+echo Mods and settings restored from:
+echo   %BACKUP_ZIP%
+
+
+:: Restore GlazeWM Settings
+
+:: Move PowerToys Settings to the Backup Folder
+
+:: Restore MSI Afterburner Settings
