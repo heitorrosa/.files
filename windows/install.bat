@@ -42,9 +42,9 @@ echo   !ESC![93m(_)_/ /_/_/\___/____/!ESC![0m  !ESC![4mWindows Installer!ESC![0m
 echo.
 echo   Select the following parameters to be executed
 echo.
-echo   !ESC![93m1!ESC![0m - Packages (!ESC![93m%PARAM_PACKAGES%!ESC![0m)
-echo   !ESC![93m2!ESC![0m - Configurations (!ESC![93m%PARAM_CONFIGURATIONS%!ESC![0m)
-echo   !ESC![93m3!ESC![0m - Tweaks and Optimizations (!ESC![93m%PARAM_TWEAKS%!ESC![0m)
+echo   !ESC![93m1!ESC![0m - [!ESC![93m%PARAM_PACKAGES%!ESC![0m] Packages
+echo   !ESC![93m2!ESC![0m - [!ESC![93m%PARAM_CONFIGURATIONS%!ESC![0m] Configurations (Make sure to have everything already installed)
+echo   !ESC![93m3!ESC![0m - [!ESC![93m%PARAM_TWEAKS%!ESC![0m] Tweaks and Optimizations
 echo.
 echo   !ESC![93m4!ESC![0m - Confirm and Execute
 echo.
@@ -93,6 +93,7 @@ if "%PARAM_PACKAGES%"=="ON" (
 ) else goto configurations
 
 :packages
+
 
 ::
 :: Packages and Dependencies Installer
@@ -163,6 +164,7 @@ if "%PARAM_CONFIGURATIONS%"=="ON" (
 ) else goto tweaks
 
 :configurations
+
 
 ::
 :: Clone Repository
