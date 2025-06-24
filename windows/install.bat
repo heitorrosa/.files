@@ -1,5 +1,5 @@
 @echo off
-title heitorrosa/.files
+title github.com/heitorrosa/.files
 
 ::
 :: Execute the script as administrator (Not needeed, UAC already disabled)
@@ -8,11 +8,91 @@ cd /d "%~dp0" && ( if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs" ) &&
 
 powershell Set-ExecutionPolicy Unrestricted
 
+SETLOCAL EnableExtensions DisableDelayedExpansion
+for /F %%a in ('echo prompt $E ^| cmd') do (
+  set "ESC=%%a"
+)
+SETLOCAL EnableDelayedExpansion
+chcp 65001 >NUL 2>&1
+
 
 
 ::----------------------------------------------------------------
 
 
+
+::
+:: Parameters Setup
+::
+
+set "PARAM_PACKAGES=ON"
+set "PARAM_CONFIGURATIONS=ON"
+set "PARAM_TWEAKS=ON"
+
+:paramSetup
+cls
+
+echo   heitorrosa/.files
+echo.
+echo         !ESC![93m_____ __!ESC![0m         
+echo        !ESC![93m/ __(_) /__  _____!ESC![0m
+echo       !ESC![93m/ /_/ / / _ \/ ___/!ESC![0m
+echo    !ESC![93m_ / __/ / /  __(__  )!ESC![0m
+echo   !ESC![93m(_)_/ /_/_/\___/____/!ESC![0m  !ESC![4mWindows Installer!ESC![0m
+echo.
+echo   Select the following parameters to be executed
+echo.
+echo   !ESC![93m1!ESC![0m - Packages (!ESC![93m%PARAM_PACKAGES%!ESC![0m)
+echo   !ESC![93m2!ESC![0m - Configurations (!ESC![93m%PARAM_CONFIGURATIONS%!ESC![0m)
+echo   !ESC![93m3!ESC![0m - Tweaks and Optimizations (!ESC![93m%PARAM_TWEAKS%!ESC![0m)
+echo.
+echo   !ESC![93m4!ESC![0m - Confirm and Execute
+echo.
+set /p choice="   Select an option (!ESC![93m1-4!ESC![0m): "
+
+if "%choice%"=="1" (
+    if "%PARAM_PACKAGES%"=="ON" (
+        set "PARAM_PACKAGES=OFF"
+    ) else (
+        set "PARAM_PACKAGES=ON"
+    )
+    goto paramSetup
+)
+
+if "%choice%"=="2" (
+    if "%PARAM_CONFIGURATIONS%"=="ON" (
+        set "PARAM_CONFIGURATIONS=OFF"
+    ) else (
+        set "PARAM_CONFIGURATIONS=ON"
+    )
+    goto paramSetup
+)
+
+if "%choice%"=="3" (
+    if "%PARAM_TWEAKS%"=="ON" (
+        set "PARAM_TWEAKS=OFF"
+    ) else (
+        set "PARAM_TWEAKS=ON"
+    )
+    goto paramSetup
+)
+
+if "%choice%"=="4" (
+    echo Confirmed. Proceeding with selected options...
+) else (
+    goto paramSetup
+)
+
+
+
+::----------------------------------------------------------------
+
+
+if "%PARAM_PACKAGES%"=="ON" (
+    goto packages
+) else goto configurations
+
+:packages
 
 ::
 :: Packages and Dependencies Installer
@@ -78,6 +158,11 @@ del /f "C:\Windows\Temp\MSIAfterburnerSetup466Beta3.exe"
 ::----------------------------------------------------------------
 
 
+if "%PARAM_CONFIGURATIONS%"=="ON" (
+    goto configurations
+) else goto tweaks
+
+:configurations
 
 ::
 :: Clone Repository
@@ -199,6 +284,11 @@ xcopy "%CURRENT_DIR%\windows\MSI Afterburner\Profiles\" "C:\Program Files (x86)\
 ::----------------------------------------------------------------
 
 
+if "%PARAM_TWEAKS%"=="ON" (
+    goto tweaks
+) else goto :eof
+
+:tweaks
 
 ::
 :: Tweaks for Performance, Latency and QoL
