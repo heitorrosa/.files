@@ -269,7 +269,7 @@ keybindings:
   # `shell-exec %ProgramFiles%/Git/git-bash.exe` to start Windows
   # Terminal and Git Bash respectively.
 
-  - commands: ['shell-exec cmd']
+  - commands: ['shell-exec C:\Program Files\PowerShell\7\pwsh.exe']
     bindings: ['alt+enter']
 
   - commands: ['shell-exec C:\Program Files\Microsoft VS Code\Code.exe']
