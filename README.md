@@ -3,5 +3,5 @@ A collection of dot files for Windows and Linux that I use for development and g
 
 **Launch the Mouse Settings Script**
 ```bat
-powershell irm "https://raw.githubusercontent.com/heitorrosa/.files/refs/heads/main/windows/scripts/ChangeMouseSettings.ps1" | iex
+irm "https://raw.githubusercontent.com/heitorrosa/.files/refs/heads/main/windows/scripts/ChangeMouseSettings.ps1" | iex
 ```
