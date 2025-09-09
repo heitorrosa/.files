@@ -8,11 +8,6 @@ $exePath = "C:\Program Files\Parsec\parsecd.exe"
 $toggle = $false
 $busy = $false
 
-if (-not (Test-Path $exePath)) {
-    Write-Host "Error: $exePath not found!"
-    exit
-}
-
 Add-Type @"
 using System;
 using System.Runtime.InteropServices;
