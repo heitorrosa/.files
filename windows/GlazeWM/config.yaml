@@ -44,14 +44,14 @@ gaps:
   scale_with_dpi: true
 
   # Gap between adjacent windows.
-  inner_gap: '6px'
+  inner_gap: '10px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '8px'
-    right: '6px'
-    bottom: '8px'
-    left: '6px'
+    top: '12px'
+    right: '10px'
+    bottom: '12px'
+    left: '10px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -129,6 +129,7 @@ workspaces:
   - name: '7'
   - name: '8'
   - name: '9'
+  - name: 'parsec'
 
 window_rules:
   - commands: ['ignore']
@@ -144,7 +145,11 @@ window_rules:
       - window_process: { equals: 'prismlauncher' }
       - window_process: { equals: 'Marvel-Win64-Shipping' }
       - window_process: { equals: 'Marvel' }
+      - window_process: { equals: 'Cyberpunk2077' }
+      - window_process: { equals: 'RuntimeClient-Win64-Shipping' } # Rematch
       - window_process: { equals: 'Trackmania' }
+      - window_process: { equals: 'FragPunk' }
+      - window_process: { equals: 'RocketLeague' }
       - window_title: { equals: 'Minecraft' }
       - window_title: { equals: 'Roblox' }
       
@@ -212,7 +217,7 @@ keybindings:
     bindings: ['alt+o']
   - commands: ['resize --height -2%']
     bindings: ['alt+i']
-
+    
   # As an alternative to the resize keybindings above, resize mode enables
   # resizing via arrow keys or HJKL. The binding mode is defined above with
   # the name 'resize'.
@@ -272,7 +277,7 @@ keybindings:
   - commands: ['shell-exec C:\Program Files\PowerShell\7\pwsh.exe']
     bindings: ['alt+enter']
 
-  - commands: ['shell-exec C:\Program Files\Microsoft VS Code\Code.exe']
+  - commands: ['shell-exec D:\Program Files\VS Code\Code.exe']
     bindings: ['alt+c']
 
   - commands: ['shell-exec %localappdata%\Thorium\Application\thorium.exe']
