@@ -149,10 +149,7 @@ window_rules:
       - window_process: { equals: 'RuntimeClient-Win64-Shipping' } # Rematch
       - window_process: { equals: 'Trackmania' }
       - window_process: { equals: 'FragPunk' }
-<<<<<<< HEAD
       - window_process: { equals: 'RocketLeague' }
-=======
->>>>>>> b9b86523ddb82b13c6eaf40e84d22e041fc0999f
       - window_title: { equals: 'Minecraft' }
       - window_title: { equals: 'Roblox' }
       
